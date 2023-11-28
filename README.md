@@ -13,7 +13,7 @@ This project is designed for future potential employers, or of course those who 
 ![Alt text](<assets/images/Screenshot 2023-11-28 at 20.39.54.png>)
 
 ## Authors and acknowledgment
-Many thanks to EdX for supplying the source code for this refactor, which can be viewed in the first push into my repo. Awknowledgement to freepik.com for the images used in my grid.
+Many thanks to EdX for supplying the source code for this project, which can be viewed in the first push into my repo. Awknowledgement to freepik.com for the images used in my grid.
 
 ## License
 MIT License
