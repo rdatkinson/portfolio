@@ -1,31 +1,17 @@
+
 @media only screen and (min-width: 300px) {
 
-/*gjhger
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-*/
-
 /* Header Section */
+
+body {
+  background-color: #f6d0ea;
+}
 
 header {
   padding: 20px 20px 20px 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #FFB7E8
 }
-
-/*
-h1 {
-  display: inline-block;
-  font-size: 48px;
-  color: #FFFFFF;
-  background-color: #ec4cb9;
-  margin-left: 0%;
-  padding-right: 20px;
-}
-*/
 
 figure {
   margin: 0px;
@@ -35,38 +21,12 @@ figure {
 img{
   height: 200px;
   width: 100%;
-  /*bgdf
-  margin-bottom: 25px;
-  */
   background-image: url("./assets/images/rm209-ning-17-l.jpg");
   background-size: cover;
   background-position: center;
   padding: 0px;
   margin: 0px;
 }
-
-/*
-nav {
-  margin-top: 15px;
-  margin-right: 20px;
-  margin-bottom: 0px;
-  float: right;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 25px;
-  color: white;
-}
-
-nav ul {
-  list-style-type: none;
-  margin-bottom: 0px;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-left: 25px;
-  color: #FFFFFF;
-}
-*/
 
 #navBar {
   display: flex;
@@ -85,6 +45,7 @@ nav ul li {
 #navBar h1 {
   width: 25%;
   font-weight: 500;
+  color: white;
 }
 
 #navigation a {
@@ -103,7 +64,6 @@ nav ul li {
   bottom: 50px;
   right: 20px;
 }
-
 
 /* Main body section */
 
@@ -124,35 +84,39 @@ body {
   width: 100%;
 }
 
-/*
+#aboutme {
+  display: flex;
+  padding-left: 6.9%;
+  padding-right: 20px;
+}
+
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding-left: 110px;
+  padding-right: 300px;
+}
+
 #work {
   display: flex;
-  width: 100%;
+  width: 66%;
 }
 
-.creative {
-  display: flex;
-  width: 100%;
-}
-
-.placeholders {
-  display: flex;
-  width: 100%;
-}
-*/
-
-.subHeading {
-  text-align: right;
-  border-right: 3px solid #FFB7E8;
-  width: 200px;
-  margin: 0;
-  color: #ec4cb9;
+#mywork {
+  padding-right: 20px;
+  padding-left: 40%;
 }
 
 #categoryGrid {
-  margin: 0px 10%;
+  margin: 0px 20%;
+  padding-left: 0px;
+  margin-top: 0%;
+  margin-left: 0%;
+  width: 4000px;
   display: grid;
-  grid-template-rows: 200px 100px 100px;
+  grid-template-rows: 400px 200px 200px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
   "horiseon horiseon"
@@ -165,7 +129,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 10px;
+  margin: 5px;
   cursor: pointer;
   display: grid;
   align-content: end;
@@ -201,40 +165,66 @@ body {
   padding: 5px;
   height: 20px;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   border-bottom: 5px solid #ff00dd;
+  text-align: right;
+}
+
+.flex_item {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+
+#row {
+  flex-direction: row;
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
 }
 
 #contact {
   display: flex;
-  width: 100%;
+  width: 70%;
+}
+
+#myinfo {
+  display: flex;
+  width: 2000px;
+  flex-grow: 10;
+  align-items: center;
+  padding-left: 430px;
   justify-content: space-evenly;
+  margin: 0px -30%;
+}
+
+#myinfo a {
+  color: black;
+}
+
+#contact h2 {
+  width: 25%;
+  font-weight: 500;
+}
+
+#contactme {
+  padding-right: 20px;
 }
 
 .exp {
   color: #ec4cb9;
-  width: 200px;
   text-align: right;
   border-right: 3px solid #FFB7E8;
 }
-
-.con1 {
-  position: relative;
-}
-
-.img1 {
-  width: 500px;
-}
-
-/*
-.horiseon {
-  background-color: #ec4cb9;
-  color: #FFFFFF;
-  position: absolute;
-  bottom: 50px;
-  right: 20px;
-}
-*/
 
 h1,
 h2,
