@@ -2,6 +2,7 @@
 
 ## Description
 This project is a webpage showcasing my portfolio of projects. It is designed in a way that I can continuously update it with projects I make in the future. It's not the most aesthetically pleasing website in the world :) but it is functional and I plan on tweaking the design as time goes on to make it more pleasing to the eye, as my CSS skills continue to develop.
+You can view the deployed application via this link: https://rdatkinson.github.io/portfolio/
 
 ## Installation
 N/A
