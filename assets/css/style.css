@@ -1,6 +1,74 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+/* Header Section */
+
+header {
+  padding: 20px 20px 20px 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #FFB7E8
+}
+
+h1 {
+  display: inline-block;
+  font-size: 48px;
+  color: #FFFFFF;
+  background-color: #ec4cb9;
+  margin-left: 0%;
+  padding-right: 20px;
+}
+
+nav {
+  margin-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  color: #FFFFFF;
+}
+
+.hero-banner {
+  position: relative;
+}
+
+.caption {
+  background-color: #ec4cb9;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+}
+
+
+/* Main body section */
+
+figure img{
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("./assets/images/rm209-ning-17-l.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 
 body {
   margin: 0;
