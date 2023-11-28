@@ -1,3 +1,5 @@
+@media only screen and (min-width: 300px) {
+
 /*gjhger
 * {
   box-sizing: border-box;
@@ -14,6 +16,7 @@ header {
   background-color: #FFB7E8
 }
 
+/*
 h1 {
   display: inline-block;
   font-size: 48px;
@@ -22,6 +25,8 @@ h1 {
   margin-left: 0%;
   padding-right: 20px;
 }
+*/
+
 figure {
   margin: 0px;
   padding: 0px;
@@ -40,6 +45,7 @@ img{
   margin: 0px;
 }
 
+/*
 nav {
   margin-top: 15px;
   margin-right: 20px;
@@ -59,6 +65,31 @@ nav ul li {
   display: inline-block;
   margin-left: 25px;
   color: #FFFFFF;
+}
+*/
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+}
+
+#navigation {
+  display: flex;
+  width: auto;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+}
+
+#navigation a {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .hero-banner {
@@ -90,22 +121,94 @@ body {
 
 #about {
   display: flex;
+  width: 100%;
 }
 
+/*
 #work {
   display: flex;
+  width: 100%;
 }
 
-.i-suck {
+.creative {
   display: flex;
+  width: 100%;
 }
 
-.ray-sucks {
+.placeholders {
   display: flex;
+  width: 100%;
+}
+*/
+
+.subHeading {
+  text-align: right;
+  border-right: 3px solid #FFB7E8;
+  width: 200px;
+  margin: 0;
+  color: #ec4cb9;
+}
+
+#categoryGrid {
+  margin: 0px 10%;
+  display: grid;
+  grid-template-rows: 200px 100px 100px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "horiseon horiseon"
+  "prework soundcloud"
+  "ph1 ph2"
+  ;
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+#horiseon {
+  grid-area: horiseon;
+  background-image: url(../images/abstract-futuristic-school-classroom.jpg);
+}
+
+#prework {
+  grid-area: prework;
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+#soundcloud {
+  grid-area: soundcloud;
+  background-image: url("../images/greeting-card-white-pink-rose-petals.jpg");
+}
+
+#ph1 {
+  grid-area: ph1;
+  background-image: url("../images/human-hand-studio.jpg");
+}
+
+#ph2 {
+  grid-area: ph2;
+  background-image: url("../images/top-view-colorful-hearts-studio.jpg");
+}
+
+.gridHeading {
+  background-color: rgba(224, 117, 193, 0.7);
+  padding: 5px;
+  height: 20px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #ff00dd;
 }
 
 #contact {
   display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .exp {
@@ -114,6 +217,24 @@ body {
   text-align: right;
   border-right: 3px solid #FFB7E8;
 }
+
+.con1 {
+  position: relative;
+}
+
+.img1 {
+  width: 500px;
+}
+
+/*
+.horiseon {
+  background-color: #ec4cb9;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+}
+*/
 
 h1,
 h2,
@@ -126,4 +247,5 @@ h6 {
 
 p {
   margin: 0;
+}
 }
